@@ -10,7 +10,7 @@ export class AppComponent  {
     {
       name: 'Ford',
       cars: {
-        F150: {
+        first: {
           color: 'red',
           year: 2017
         } 
@@ -18,8 +18,8 @@ export class AppComponent  {
     },
     {
       name: 'VW',
-      models: {
-        Polo: {
+      cars: {
+        first: {
           color: 'green',
           year: 2018
         } 
