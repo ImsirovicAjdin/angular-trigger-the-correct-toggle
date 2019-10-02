@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  brands = [
+    {
+      name: 'Ford',
+      cars: {
+        F150: {
+          color: 'red',
+          year: 2017
+        } 
+      }
+    },
+    {
+      name: 'VW',
+      models: {
+        Polo: {
+          color: 'green',
+          year: 2018
+        } 
+      }
+    }
+  ];
 }

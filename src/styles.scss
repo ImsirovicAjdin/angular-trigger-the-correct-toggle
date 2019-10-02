@@ -1,0 +1,16 @@
+/* Add application styles & imports to this file! */
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+
+.box {
+  background-color: white;
+  // padding-top: 0;
+  max-height: 0px;
+  overflow-y: hidden;
+  transition: ease-in-out 800ms max-height;
+}
+
+.box.opened {
+  // padding-top: 20px;
+  max-height: 3000px;
+  transition: ease-in-out 800ms max-height;
+}
