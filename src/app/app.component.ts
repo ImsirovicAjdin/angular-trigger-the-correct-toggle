@@ -12,7 +12,8 @@ export class AppComponent  {
       cars: {
         first: {
           color: 'red',
-          year: 2017
+          year: 2017, 
+          model: 'Escort'
         } 
       }
     },
@@ -21,7 +22,8 @@ export class AppComponent  {
       cars: {
         first: {
           color: 'green',
-          year: 2018
+          year: 2018,
+          model: 'Polo'
         } 
       }
     }

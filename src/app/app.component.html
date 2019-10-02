@@ -1,11 +1,11 @@
-<section class="pt-2" *ngFor="let models of brands">
+<section class="pt-2" *ngFor="let models of brands; let i of index">
 	<div class="border border-success mx-4 px-2 py-2 bg-success" (click)="show = !show">
-		<span>{{ models.name | json }} </span> 
+		<span>{{ models.name }} </span> 
     <span>...</span>
   </div>
   <div class="box" [class.opened]="show">
     <div class="mt-3">
       <p><strong>Car maker:</strong> {{ models.name }}</p>
-      <p><strong>Cars available:</strong> {{ models.cars | json }}</p>
+      <p><strong>Cars available:</strong> {{ models.cars.first.model }}</p>
     </div>
 </div>
